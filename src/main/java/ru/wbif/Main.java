@@ -18,8 +18,6 @@ public class Main {
     private static final Int2IntMap parents = new Int2IntOpenHashMap();
 
     static void main(String[] args) {
-        args = new String[]{"C:\\Users\\WhiteBeef\\Downloads\\lng-4(2).txt\\lng.txt"};
-
         long startTime = System.currentTimeMillis();
 
         if (!readFile(args)) {
